@@ -13,6 +13,60 @@
   }
 }
 
+#red
+{
+  color:red
+}
+#redc
+{
+  color:brown
+}
+#light_orange
+{
+  color:violet
+}
+#orange
+{
+  color: orangered;
+}
+#yellow
+{
+  color:darkkhaki;
+ 
+}
+#light_green
+{
+  color: blue
+}
+#green
+{
+  color: green;
+}
+/* .form
+{
+  background-color: khaki;
+  width: 300px;
+  height: 500px;
+} */
+
+*
+{
+  background-color: #61dafb;
+  
+}
+#button
+{
+  
+		color: #fff;
+		padding: 10px;
+		display: inline-block;
+		border-radius: 5px;
+		animation: blinkingBackground 2s infinite;
+}
+    @keyframes blinkingBackground{
+      0%		{ background-color:chartreuse}
+      25%		{ background-color:darkred;}
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
